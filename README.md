@@ -15,3 +15,14 @@ esa clase fue realizada. Dentro de la logica del patron, tu no sabes qeu objeto 
 a instanciar a no ser que sepas cual es la entrada de datos, ya que en el metodo
 de fabricacion(main) se hace una diferencia de el como se instancian las clases
 dependiendo de cierta condicion.
+
+## 3.Abstarct factory
+Es una factoria que lleva a un nivel mas arriba el patron factory, pero este patron 
+se basa en la creacion de familias de objetos segun una fabrica que define esa
+mismma familñia de objetos
+
+## 4. Prototype 
+Es un patron de diseño basado en la creacion de copias de un objeto,
+solamente la copia de sus atributos aunque sean protected o private, 
+el punto es obtener un clon identico del obejto pero sin copiar su referencia
+de memoria ni perder el tipo de dato que lo caracteriza.
