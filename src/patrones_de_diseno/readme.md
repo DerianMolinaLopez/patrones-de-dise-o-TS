@@ -49,10 +49,18 @@ en el sistema
 
 
 # Patrones estructurales
-1. Patron adaptador
+## 1. Patron adaptador
 El patron adaptador es un tipo de patron estructural que pretende hacer compatibles
 a las interfaces que son incompatibles, este tipo de patrones consiste en crear una
 interfaz con la ologica que se quiere implementar, y de esos metodos solamente se va a
 tomar los metodos deseados por una lirberia de terceros. De esa manera se puede
 conseguir que el codigo de la libreria no se mezcle con el codigo del equipo de
 desarrollo.
+
+## 2.Patron Bridge
+Es un patron de diseño dedicado para el escalado de clases, desacopla una clase 
+que ya sea bastante grande y por medio de una interfgaz  clase abstracta, se 
+realizan los cambios, la clase abstracta depende del objeto que implemente la interfaz,
+cambiando la naturaleza del objeto con un solo cambio en el codigo.
+Este patron de diseño es util a la hora de descomponer clases, en familias de clases
+que al final del dia todas juntas forman una sola.
