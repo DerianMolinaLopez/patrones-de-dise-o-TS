@@ -46,3 +46,13 @@ Este patron de diseño es un poco controversial por violar
 el principio de responsabilidad uncia, por una parte crea el
 objeto y por otra se encarga de que no exista instancia
 en el sistema
+
+
+# Patrones estructurales
+1. Patron adaptador
+El patron adaptador es un tipo de patron estructural que pretende hacer compatibles
+a las interfaces que son incompatibles, este tipo de patrones consiste en crear una
+interfaz con la ologica que se quiere implementar, y de esos metodos solamente se va a
+tomar los metodos deseados por una lirberia de terceros. De esa manera se puede
+conseguir que el codigo de la libreria no se mezcle con el codigo del equipo de
+desarrollo.
