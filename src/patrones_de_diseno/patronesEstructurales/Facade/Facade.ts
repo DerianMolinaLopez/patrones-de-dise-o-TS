@@ -15,7 +15,7 @@ leida desde las variables de entorno
 
 
 
-export interface HomeTheaterOptions {
+export interface HomeTheaterOptions {//Hay que verlo como si fuera un boton de encendido, lo demas son configuraciones
      projector:Projector
      soundSystem:SoundSystem
      popMaker: PopCornMaker
