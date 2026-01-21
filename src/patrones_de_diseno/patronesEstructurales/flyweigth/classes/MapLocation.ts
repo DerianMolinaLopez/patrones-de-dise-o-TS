@@ -16,6 +16,6 @@ export default class MarkLocation{
         return this.icon;
     }
     display(){
-        this.icon.display()
+        this.icon.display
     }
 }

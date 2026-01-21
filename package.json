@@ -16,6 +16,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "logger": "^0.0.1",
+    "ts-node": "^10.9.2",
     "winston": "^3.18.3"
   }
 }
