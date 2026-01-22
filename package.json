@@ -9,8 +9,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
     "prettier": "^3.3.1",
+    "typescript": "^5.2.2",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "logger": "^0.0.1",
+    "ts-node": "^10.9.2",
+    "winston": "^3.18.3"
   }
 }
