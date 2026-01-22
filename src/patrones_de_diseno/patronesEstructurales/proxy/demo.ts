@@ -29,6 +29,7 @@ class Player {
 }
 
 interface Room {
+  
   enter(player: Player): void;
 }
 
